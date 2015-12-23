@@ -1,18 +1,25 @@
 {
-  "name": "angular2 rollup-test",
+  "name": "angular2-rollup-test",
   "version": "1.0.0",
   "description": "Angular 2 test repo for rollup",
+  "repository": "https://github.com/cetra3/rollup-ng2-test",
   "scripts": {
-    "lite": "lite-server",
+    "lite": "lite-server"
   },
   "license": "ISC",
-  "dependencies": {
-    "angular2": "2.0.0-beta.0",
-  },
   "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.0.0",
     "lite-server": "^1.3.1",
     "rollup-plugin-babel": "^2.2.0",
     "rollup-plugin-typescript": "github:cetra3/rollup-plugin-typescript#include-ts-resolver",
     "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"  
   }
 }
