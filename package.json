@@ -1,0 +1,18 @@
+{
+  "name": "angular2 rollup-test",
+  "version": "1.0.0",
+  "description": "Angular 2 test repo for rollup",
+  "scripts": {
+    "lite": "lite-server",
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+  },
+  "devDependencies": {
+    "lite-server": "^1.3.1",
+    "rollup-plugin-babel": "^2.2.0",
+    "rollup-plugin-typescript": "github:cetra3/rollup-plugin-typescript#include-ts-resolver",
+    "typescript": "^1.7.5"
+  }
+}
